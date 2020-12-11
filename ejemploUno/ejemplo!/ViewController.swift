@@ -15,10 +15,10 @@ class ViewController: UIViewController {
     @IBAction func validateBtn(_ sender: Any) {
         if numbersTex.text == random {
             mensajelbl.text = "Felicidades Ganaste";
-            self.view.backgroundColor = #colorLiteral(red: 0.9456755249, green: 1, blue: 0.1130076824, alpha: 1)
+            self.view.backgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
         } else {
           mensajelbl.text = "fallaste intenta nuevamente"
-            self.view.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
+            self.view.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
             
         }
     }
